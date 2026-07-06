@@ -320,7 +320,6 @@ Sample Findings
 Finding 1: Hardcoded Database Password
 Severity: Critical
 Risk Score: 90
-Evidence: DB_PASSWORD=admin123 found in .env file
 Recommendation: Rotate the exposed password and remove secrets from Git history.
 Finding 2: Sensitive File Deleted
 Severity: High
